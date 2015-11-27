@@ -1,4 +1,4 @@
-# GlobalRCP
+# GlobalRPS
 
 The same 'Rock-Paper-Scissors' game in different languages.
 
