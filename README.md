@@ -10,7 +10,7 @@ Scripts - Run in shell
 Programs - Compile and execute
 
 
-Web - Download and open locally / Visit link on saxena.xyz/*
+Web - Open related HTML file / Visit link on saxena.xyz/*
 
 
 Mobile - Install apk for Android / Run iOS app on dev device
