@@ -2,6 +2,7 @@
 GlobalRPS
 RPSinRuby.rb
 This is the program version of "Rock Paper Scissor" in Ruby. Compile and execute to run.
+(Navigate to file in terminal and execute this command - ruby RPSinRuby.rb)
 Made with love, by Anubhav Saxena
 =end
 
