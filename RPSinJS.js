@@ -1,7 +1,8 @@
 /*
 GlobalRPS
 RPSinJS.js
-This is the JavaScript version of "Rock Paper Scissors". I'm s
+This is the JavaScript logic of "Rock Paper Scissors". To run or test, open RPSinJS.html, and play using input dialogs and console.
+Made with love, by Anubhav Saxena
 */
 
 var playOn = true;
