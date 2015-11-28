@@ -3,6 +3,7 @@ GlobalRPS
 RPSinJS.js
 This is the JavaScript version of "Rock Paper Scissors". I'm s
 */
+
 var playOn = true;
 
 while (playOn === true) {
@@ -71,4 +72,5 @@ playOn = false;
 }
 
 console.log(compare(userChoice, computerChoice));
+
 }
