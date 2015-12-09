@@ -17,7 +17,7 @@ if (computerChoice < 0.34) {
 	computerChoice = "rock";
 } 
 
-else if(computerChoice <= 0.67) {
+else if (computerChoice <= 0.67) {
 	computerChoice = "paper";
 } 
 
