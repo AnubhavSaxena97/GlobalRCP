@@ -1,8 +1,8 @@
 # GlobalRPS
 
-The same 'Rock-Paper-Scissors' game in different languages.
+Just the 'Rock-Paper-Scissors' game in different languages.
 
-Just for practice.
+For basic practice.
 
 Scripts - Run in shell
 
