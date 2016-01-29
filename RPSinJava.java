@@ -36,42 +36,49 @@ public class RPSinJava {
             System.out.println("What do you want to throw? ");
             String userChoice = s.nextLine();
 
-            if (computerChoice.equals("rock") && userChoice.equalsIgnoreCase("rock")) {
-                System.out.println("It's a tie, both threw rock.");
-            }
+            switch (computerChoice) {
 
-            else if (computerChoice.equals("rock") && userChoice.equalsIgnoreCase("paper")) {
-                System.out.println("You win, computer threw rock.");
+                case (("rock")):
+                    if (userChoice.equalsIgnoreCase("scissors")) {
+                        System.out.println("Computer wins, it threw rock.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("rock")) {
+                        System.out.println("It's a tie, both threw rock.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("paper")) {
+                        System.out.println("You win, computer threw rock.");
+                        break;
+                    }
+                case (("paper")):
+                    if (userChoice.equalsIgnoreCase("scissors")) {
+                        System.out.println("You win, computer threw paper.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("rock")) {
+                        System.out.println("Computer wins, it threw paper.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("paper")) {
+                        System.out.println("It's a tie, both threw paper.");
+                        break;
+                    }
+                case (("scissors")):
+                    if (userChoice.equalsIgnoreCase("scissors")) {
+                        System.out.println("It's a tie, both threw scissors.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("rock")) {
+                        System.out.println("You win, computer threw scissors.");
+                        break;
+                    }
+                    if (userChoice.equalsIgnoreCase("paper")) {
+                        System.out.println("Computer wins, it threw scissors.");
+                        break;
+                    }
             }
-
-            else if (computerChoice.equals("rock") && userChoice.equalsIgnoreCase("scissors")) {
-                System.out.println("Computer wins, it threw rock.");
-            }
-
-            else if (computerChoice.equals("paper") && userChoice.equalsIgnoreCase("rock")) {
-                System.out.println("Computer wins, it threw rock.");
-            }
-
-            else if (computerChoice.equals("paper") && userChoice.equalsIgnoreCase("paper")) {
-                System.out.println("It's a tie, both threw paper.");
-            }
-
-            else if (computerChoice.equals("paper") && userChoice.equalsIgnoreCase("scissors")) {
-                System.out.println("You win, computer threw paper.");
-            }
-
-            else if (computerChoice.equals("scissors") && userChoice.equalsIgnoreCase("rock")) {
-                System.out.println("You win, computer threw scissors.");
-            }
-
-            else if (computerChoice.equals("scissors") && userChoice.equalsIgnoreCase("paper")) {
-                System.out.println("Computer wins, it threw scissors.");
-            }
-
-            else if (computerChoice.equals("scissors") && userChoice.equalsIgnoreCase("scissors")) {
-                System.out.println("It's a tie, both threw scissors.");
-            }
-
+            
             System.out.println("Do you want to throw again?");
             String option = s.nextLine();
 
